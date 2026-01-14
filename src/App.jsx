@@ -1,4 +1,5 @@
 import { Header } from "./Header"
+import { Section } from "./Section"
 
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
     <div>
       <Header/>
       <p>Hellow Atlas</p>
+      <Section/>
+      <Section/>
     </div>
   );
 }

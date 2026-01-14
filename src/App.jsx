@@ -1,6 +1,13 @@
-import Greeting from "./Greeting"
+import { Header } from "./Header"
+
+
 function App() {
-  return <div className="app">Hello Atlas</div>;
+  return (
+    <div>
+      <Header/>
+      <p>Hellow Atlas</p>
+    </div>
+  );
 }
 
 export default App;

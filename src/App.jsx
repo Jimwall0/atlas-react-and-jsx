@@ -1,6 +1,7 @@
 import { Header } from "./Header"
 import { Section } from "./Section"
 import { HelpfulResource } from "./HelpfulResource"
+import AboutMe from "./AboutMe";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <HelpfulResource link="https://egghead.io/courses/the-beginner-s-guide-to-react" label="A good introduction to actually what I'm doing"/>
         <HelpfulResource link="https://www.youtube.com/watch?v=KCrXgy8qtjM" label="The last video I watched about this"/>
       </Section>
+      <AboutMe/>
     </div>
   );
 }

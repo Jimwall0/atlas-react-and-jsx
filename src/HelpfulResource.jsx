@@ -7,5 +7,5 @@ export function HelpfulResource({ link, label }){
             <OpenLink link={link}/>
             <CopyLink link={link}/>
         </div>
-    )
+    );
 }

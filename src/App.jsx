@@ -1,5 +1,6 @@
 import { Header } from "./Header"
 import { Section } from "./Section"
+import { HelpfulResource } from "./HelpfulResource"
 
 
 function App() {
@@ -20,6 +21,12 @@ function App() {
           <li>It's ecosytem</li>
           <li>It's wide usuage</li>
         </ul>
+      </Section>
+      <Section>
+        <h3>Helpful resources</h3>
+        <HelpfulResource link="https://react.dev/learn" label="This is the guide for syntax"/>
+        <HelpfulResource link="https://egghead.io/courses/the-beginner-s-guide-to-react" label="A good introduction to actually what I'm doing"/>
+        <HelpfulResource link="https://www.youtube.com/watch?v=KCrXgy8qtjM" label="The last video I watched about this"/>
       </Section>
     </div>
   );

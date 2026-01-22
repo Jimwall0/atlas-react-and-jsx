@@ -1,7 +1,8 @@
 import { Header } from "./Header"
 import { Section } from "./Section"
 import { HelpfulResource } from "./HelpfulResource"
-import AboutMe from "./AboutMe";
+import AboutMe from "./AboutMe"
+import Footer from "./Footer"
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <HelpfulResource link="https://www.youtube.com/watch?v=KCrXgy8qtjM" label="The last video I watched about this"/>
       </Section>
       <AboutMe/>
+      <Footer/>
     </div>
   );
 }
